@@ -1,5 +1,5 @@
 # SDR Project
-Software-defined radio receiver Engineering Electronics ii, Spring 2020
+Software-defined radio receiver, Engineering Electronics ii, Spring 2020
 Partners: Chrisner Garcesa and Andrew Nascimento
 
 ## Goal
@@ -17,3 +17,10 @@ Additional equipment we would have at our disposal would be the Arduino Nano Eve
 
 ## Block Diagram
 ![Block Diagram](https://github.com/andrewtnas/receiver/blob/master/Images/Picture1.png)
+This is the general design we would follow in order to have a simple, working receiver. It would be our choice on how to implement each element of this design, however we often chose solutions that the professor suggested or other classmates were using as well, but adapted to our needs.
+
+## Schematic
+Here is a breakdown of our schematic:
+
+### Bandpass-filter
+The part of the schematic is to filter our choice of frequencies to capture. We chose a range of 5-10MHz to listen to, so the incoming frequency is filtered through a 2nd order Butterworth filter.
