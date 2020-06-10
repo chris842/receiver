@@ -16,4 +16,4 @@ The specific goals to achieve given by our professor were as follows:
 Additional equipment we would have at our disposal would be the Arduino Nano Every
 
 ## Block Diagram
-![Block Diagram](/receiver/Images/Picture1.png)
+![Block Diagram](https://github.com/andrewtnas/receiver/blob/master/Images/Picture1.png)
