@@ -14,3 +14,6 @@ The specific goals to achieve given by our professor were as follows:
 * Spurious signals below 10uV  
 
 Additional equipment we would have at our disposal would be the Arduino Nano Every
+
+## Block Diagram
+
