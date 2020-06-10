@@ -23,4 +23,5 @@ This is the general design we would follow in order to have a simple, working re
 Here is a breakdown of our schematic:
 
 ### Bandpass-filter
-The part of the schematic is to filter our choice of frequencies to capture. We chose a range of 5-10MHz to listen to, so the incoming frequency is filtered through a 2nd order Butterworth filter.
+![Butterworth Filter]()
+This part of the schematic is to filter our choice of frequencies to capture. We chose a range of 5-10MHz to listen to, so the incoming frequency is filtered through a 2nd order Butterworth filter. The transformer at the end sets the DC operating point of the incoming signal around at 2.15V.
