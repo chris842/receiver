@@ -7,10 +7,10 @@ The goal of this project was to design the schematic for a radio receiver and im
 
 ## Specifications
 The specific goals to achieve given by our professor were as follows:  
-	Minimum discernible signal of less than 1uV  
-	Image rejection of over 48kHz of band greater than 30dB  
-	Tunable range of frequencies greater than 48kHz  
-	Band frequency greater than 540kHz  
-	Spurious signals below 10uV  
+	1. Minimum discernible signal of less than 1uV  
+	2. Image rejection of over 48kHz of band greater than 30dB  
+	3. Tunable range of frequencies greater than 48kHz  
+	4. Band frequency greater than 540kHz  
+	5. Spurious signals below 10uV  
 
 Additional equipment we would have at our disposal would be the Arduino Nano Every
