@@ -7,7 +7,7 @@ The goal of this project was to design the schematic for a radio receiver and im
 
 ## Specifications
 The specific goals to achieve given by our professor were as follows:  
-* 1. Minimum discernible signal of less than 1uV  
+* Minimum discernible signal of less than 1uV  
 	2. Image rejection of over 48kHz of band greater than 30dB  
 	3. Tunable range of frequencies greater than 48kHz  
 	4. Band frequency greater than 540kHz  
