@@ -64,14 +64,16 @@ The bandpass filter seems to work as expected. There is attenuation up to around
 
 ### Transformer
 ![transformer](https://github.com/andrewtnas/receiver/blob/master/Images/Transformer.png)  
+Our initial winding configuration seemed to only produce noise. An updated winding configuration is shown further below.
 
 
 ### Tayloe Mixer
 ![mixer](https://github.com/andrewtnas/receiver/blob/master/Images/Tayloe%20Mixer%20Output.png)  
-
+This is not the expected output of the Tayloe mixer. We expected to  a quadrant of a sine wave on each output. Since we cannot verify if the oscillator circuit is working properly, this error may be due to the oscillator.
 
 ### Op Amp
 ![op amp](https://github.com/andrewtnas/receiver/blob/master/Images/OP%20Amp%20Output.png)  
+The op amp seems to be functioning. We can only verify if it works as intended when the Tayloe mixer is working.
 
 
 ### Arduino & Oscillator
@@ -80,13 +82,28 @@ The bandpass filter seems to work as expected. There is attenuation up to around
 Arduino 5V and 3V3 signals appear as expected. Gauging by the serial output, the SDR program seems to be working, but we were not able to capture a signal on the SDA and SCL ports.
 
 
-## Things to Fix
+## Problems & Things to Fix
 ### Transformer
-We tried a different configuration for the transformer, by winding 18 turns on the primary and 18 on the secondary, and placing a center tap from the 2.15V pad to the middle point of the transformer. We were able to capture a clean sine wave at the transformer input, but not the output. We suspect this may be an issue with the voltage divider not working properly, perhaps due issues with the voltage smoother circuit not being able to produce 4.3V.
+We tried a different configuration for the transformer, by winding 18 turns on the primary and 18 on the secondary, and placing a center tap from the 2.15V pad to the middle point of the transformer. We were able to capture a clean sine wave at the transformer input, but not the output. 
 
+### Voltage Divider
+We were able trace the 4.3V signal up to where it meets R1 at the voltage divider, but we did not see any voltage across R1 or R2. This can explain why the transformer secondary is not working.
+
+### Tayloe Mixer
+The Tayloe mixer is likely not working due to the transformer issue. Since 4.3V is being produced, the output is likely due to the lack of signal reaching the mixer.
+
+### Oscillator
+We assume the issue with the oscillator is due to the Arduino program, although it seems to be working fine. It may also be due to improperly placing the surface mount IC on the board. 
 
 ## Lessons Learned
+### PCB Design
+We learned how to design a PCB from start to finish using KiCAD.
 
+### Test Points
+Having more test points would make debugging the circuit much easier. We did not include enough test points on the board so it was difficult to get measurements in certain places, and that made it harder to narrow down where issues were originating.
+
+### Trial & Error
+While it is important to simulate as much as possible so that a working design is achieved when the board is printed, some things were only able to be debugged when we put the circuit together. Simulation also doesn't account for our personal errors and mishaps, so having extra parts for a future project is important.
 
 
 
