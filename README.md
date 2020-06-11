@@ -76,12 +76,13 @@ The bandpass filter seems to work as expected. There is attenuation up to around
 
 ### Arduino & Oscillator
 ![arduino](https://github.com/andrewtnas/receiver/blob/master/Images/arduino%20out.png)  
+![arduino](https://github.com/andrewtnas/receiver/blob/master/Images/arduino.png)  
+Arduino 5V and 3V3 signals appear as expected. Gauging by the serial output, the SDR program seems to be working, but we were not able to capture a signal on the SDA and SCL ports.
 
 
 ## Things to Fix
 ### Transformer
-![arduino](https://github.com/andrewtnas/receiver/blob/master/Images/arduino%20out.png)  
-* We were able to get a clean sine wave out of the transformer after wiring it differently, with 18 turns on the primary and secondary, and a center tap to 2.15V.  
+We tried a different configuration for the transformer, by winding 18 turns on the primary and 18 on the secondary, and placing a center tap from the 2.15V pad to the middle point of the transformer. We were able to capture a clean sine wave at the transformer input, but not the output. We suspect this may be an issue with the voltage divider not working properly, perhaps due issues with the voltage smoother circuit not being able to produce 4.3V.
 
 
 ## Lessons Learned
