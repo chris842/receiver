@@ -69,4 +69,3 @@ PCB design in KiCAD
 
 
 
-
