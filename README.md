@@ -38,4 +38,4 @@ It is simple to implement, is low noise, and allows the bandwidth to be adjusted
 The purpose of this circuit is to drive the multiplexer used in the Tayloe Mixer. The Johnson Counter arrangement of the flip-flops is used to activate the multiplexer switches, selecting the portion of the incoming wave to be inverted and differentiated. The switching frequency is set by an Arduino program.
 
 ### Voltage Smoother
-![Voltage](https://github.com/andrewtnas/receiver/blob/master/Images/voltage.png)
+![Voltage](https://github.com/andrewtnas/receiver/blob/master/Images/voltage%20copy.png)
