@@ -56,6 +56,12 @@ PCB design in KiCAD
 ### Assembled Board
 ![board](https://github.com/andrewtnas/receiver/blob/master/Images/board.png)
 
+## Tests & Results
+
+## Things to Fix
+
+## Lessons Learned
+
 
 
 
