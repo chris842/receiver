@@ -60,18 +60,23 @@ PCB design in KiCAD
 ## Tests & Results
 ### Bandpass Filter
 ![bandpass](https://github.com/andrewtnas/receiver/blob/master/Images/Bandpass%20Filter.png)  
+The bandpass filter seems to work as expected. There is attenuation up to 
 
 ### Transformer
 ![transformer](https://github.com/andrewtnas/receiver/blob/master/Images/Transformer.png)  
 
+
 ### Tayloe Mixer
 ![mixer](https://github.com/andrewtnas/receiver/blob/master/Images/Tayloe%20Mixer%20Output.png)  
+
 
 ### Op Amp
 ![op amp](https://github.com/andrewtnas/receiver/blob/master/Images/OP%20Amp%20Output.png)  
 
+
 ### Arduino & Oscillator
 ![arduino](https://github.com/andrewtnas/receiver/blob/master/Images/arduino%20out.png)  
+
 
 ## Things to Fix
 
