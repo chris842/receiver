@@ -71,7 +71,7 @@ PCB design in KiCAD
 ![op amp](https://github.com/andrewtnas/receiver/blob/master/Images/OP%20Amp%20Output.png)  
 
 ### Arduino & Oscillator
-![arduino](https://github.com/andrewtnas/receiver/blob/master/Images/board.png)  
+![arduino](https://github.com/andrewtnas/receiver/blob/master/Images/arduino%20out.png)  
 
 ## Things to Fix
 
