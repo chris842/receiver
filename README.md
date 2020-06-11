@@ -58,6 +58,21 @@ PCB design in KiCAD
 ![board](https://github.com/andrewtnas/receiver/blob/master/Images/board.png)  
 
 ## Tests & Results
+### Bandpass Filter
+![bandpass](https://github.com/andrewtnas/receiver/blob/master/Images/board.png)  
+
+### Transformer
+![transformer](https://github.com/andrewtnas/receiver/blob/master/Images/board.png)  
+
+### Tayloe Mixer
+![mixer](https://github.com/andrewtnas/receiver/blob/master/Images/board.png)  
+
+### Op Amp
+![op amp](https://github.com/andrewtnas/receiver/blob/master/Images/board.png)  
+
+### Arduino & Oscillator
+![arduino](https://github.com/andrewtnas/receiver/blob/master/Images/board.png)  
+
 
 ## Things to Fix
 
