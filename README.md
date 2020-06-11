@@ -103,7 +103,7 @@ We learned how to design a PCB from start to finish using KiCAD.
 Having more test points would make debugging the circuit much easier. We did not include enough test points on the board so it was difficult to get measurements in certain places, and that made it harder to narrow down where issues were originating.
 
 ### Trial & Error
-While it is important to simulate as much as possible so that a working design is achieved when the board is printed, some things were only able to be debugged when we put the circuit together. Simulation also doesn't account for our personal errors and mishaps, so having extra parts for a future project is important.
+While it is important to simulate as much as possible so that a working design is achieved when the board is printed, some things were only able to be debugged when we put the circuit together. Simulation also doesn't account for our personal errors and mishaps, so having extra parts for a future project is important in case we damage parts.
 
 
 
