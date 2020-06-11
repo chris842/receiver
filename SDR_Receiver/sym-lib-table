@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name onsemi)(type Legacy)(uri C:/Users/chris/Downloads/onsemi.lib)(options "")(descr ""))
-  (lib (name 2020-04-24_00-36-58)(type Legacy)(uri C:/Users/chris/Downloads/ul_OPA2340PA/KiCAD/2020-04-24_00-36-58/2020-04-24_00-36-58.lib)(options "")(descr ""))
-  (lib (name SDR_Receiver-rescue)(type Legacy)(uri ${KIPRJMOD}/SDR_Receiver-rescue.lib)(options "")(descr ""))
-  (lib (name LM4562)(type Legacy)(uri /Users/andrew/Downloads/ul_LM4562NANOPB/KiCAD/2020-04-27_01-37-34/2020-04-27_01-37-34.lib)(options "")(descr ""))
-)
