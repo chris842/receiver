@@ -25,3 +25,16 @@ Here is a breakdown of our schematic:
 ### Bandpass-filter
 ![Butterworth Filter](https://github.com/andrewtnas/receiver/blob/master/Images/filter.png)
 This part of the schematic is to filter our choice of frequencies to capture. We chose a range of 5-10MHz to listen to, so the incoming frequency is filtered through a 2nd order Butterworth filter. The transformer at the end sets the DC operating point of the incoming signal at 2.15V.
+
+### Mixer
+![Tayloe Mixer](https://github.com/andrewtnas/receiver/blob/master/Images/filter.png)
+[This mixer was designed by Dan Tayloe](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjM6-jRtvjpAhXiQzABHfqkA9wQFjAAegQIARAB&url=http%3A%2F%2Fwww.norcalqrp.org%2Ffiles%2FTayloe_mixer_x3a.pdf&usg=AOvVaw3V9iSmiFxa8wcdVf5OEluL)
+
+It is simple to implement, is low noise, and allows the bandwidth to be adjusted. The first part of this circuit, the multiplexer, breaks the incoming signal into four outputs, at 0˚, 90˚, 180˚, and 270˚. Then the op-amp, shown below, inverts the redundant sections of the wave and diffferentiates them with their same-phase pair, then outputs two signals, which he calls the In-Phase and Quadrature signals. The op-amp filters the output to the audio-frequency range of up to 25kHz.
+![Op Amp](https://github.com/andrewtnas/receiver/blob/master/Images/filter.png)
+
+### Clock Generator and Johnson Counter
+![Tayloe Mixer](https://github.com/andrewtnas/receiver/blob/master/Images/filter.png)
+The purpose of this circuit is to drive the multiplexer used in the Tayloe Mixer. The Johnson Counter arrangement of the flip-flops is used to activate the multiplexer switches, selecting the portion of the incoming wave to be inverted and differentiated. The switching frequency is set by an Arduino program.
+
+### Voltage Smoother
