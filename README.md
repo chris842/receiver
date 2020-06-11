@@ -28,7 +28,8 @@ This part of the schematic is to filter our choice of frequencies to capture. We
 
 ### Mixer
 ![Tayloe Mixer](https://github.com/andrewtnas/receiver/blob/master/Images/mixer.png)  
-[This mixer was designed by Dan Tayloe](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjM6-jRtvjpAhXiQzABHfqkA9wQFjAAegQIARAB&url=http%3A%2F%2Fwww.norcalqrp.org%2Ffiles%2FTayloe_mixer_x3a.pdf&usg=AOvVaw3V9iSmiFxa8wcdVf5OEluL)
+[This mixer was designed by Dan Tayloe]
+(https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjM6-jRtvjpAhXiQzABHfqkA9wQFjAAegQIARAB&url=http%3A%2F%2Fwww.norcalqrp.org%2Ffiles%2FTayloe_mixer_x3a.pdf&usg=AOvVaw3V9iSmiFxa8wcdVf5OEluL)
 
 It is simple to implement, is low noise, and allows the bandwidth to be adjusted. The first part of this circuit, the multiplexer, breaks the incoming signal into four outputs, at 0˚, 90˚, 180˚, and 270˚. Then the op-amp, shown below, inverts the redundant sections of the wave and diffferentiates them with their same-phase pair, then outputs two signals, which he calls the In-Phase and Quadrature signals. The op-amp filters the output to the audio-frequency range of up to 25kHz.  
 ![Op Amp](https://github.com/andrewtnas/receiver/blob/master/Images/op%20amp.png)
