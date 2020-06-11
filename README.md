@@ -60,7 +60,7 @@ PCB design in KiCAD
 ## Tests & Results
 ### Bandpass Filter
 ![bandpass](https://github.com/andrewtnas/receiver/blob/master/Images/Bandpass%20Filter.png)  
-The bandpass filter seems to work as expected. There is attenuation up to 
+The bandpass filter seems to work as expected. There is attenuation up to around 5MHz, where our band begins. A 500mV test signal was used.
 
 ### Transformer
 ![transformer](https://github.com/andrewtnas/receiver/blob/master/Images/Transformer.png)  
@@ -79,6 +79,10 @@ The bandpass filter seems to work as expected. There is attenuation up to
 
 
 ## Things to Fix
+### Transformer
+![arduino](https://github.com/andrewtnas/receiver/blob/master/Images/arduino%20out.png)  
+* We were able to get a clean sine wave out of the transformer after wiring it differently, with 18 turns on the primary and secondary, and a center tap to 2.15V.  
+
 
 ## Lessons Learned
 
