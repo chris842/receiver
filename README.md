@@ -41,3 +41,6 @@ The purpose of this circuit is to drive the multiplexer used in the Tayloe Mixer
 ![Voltage](https://github.com/andrewtnas/receiver/blob/master/Images/voltage%20copy.png)
 
 Dr. Frohne designed this section of the schematic to provide a stable, ripple-free voltage source. It takes 5 volts from the Arduino and powers the multiplexer, op amp, and DC bias circuit.
+
+### Overall Schematic
+![Schematic](https://github.com/andrewtnas/receiver/blob/master/Images/complete.png)
