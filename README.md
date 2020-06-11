@@ -44,3 +44,22 @@ Dr. Frohne designed this section of the schematic to provide a stable, ripple-fr
 
 ### Complete Schematic
 ![Schematic](https://github.com/andrewtnas/receiver/blob/master/Images/complete.png)
+
+## PCB
+### Board Schematic
+![PCB](https://github.com/andrewtnas/receiver/blob/master/Images/pcb.png)
+PCB design in KiCAD
+
+### Board Render
+![render](https://github.com/andrewtnas/receiver/blob/master/Images/render.png)
+
+### Assembled Board
+![board](https://github.com/andrewtnas/receiver/blob/master/Images/board.png)
+
+
+
+
+
+
+
+
